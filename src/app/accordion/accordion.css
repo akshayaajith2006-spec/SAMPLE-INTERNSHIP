@@ -1,0 +1,16 @@
+.accordion-button {
+  background-color: #8c1418;
+  color: #e7e3df;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #bf1717;
+  color: #fff4e9;
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}

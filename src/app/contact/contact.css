@@ -1,0 +1,37 @@
+#contact {
+  background-color: #fdf3e3;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 700px;
+}
+
+h2 {
+  color: #4a148c;
+  font-family: Georgia, serif;
+  margin-bottom: 24px;
+}
+
+.form-control {
+  border: 1px solid #4a148c;
+}
+
+.form-control:focus {
+  border-color: #b87333;
+  box-shadow: 0 0 0 2px rgba(184, 115, 51, 0.2);
+  outline: none;
+}
+
+.btn-submit {
+  background-color: #4a148c;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #b87333;
+  color: white;
+}

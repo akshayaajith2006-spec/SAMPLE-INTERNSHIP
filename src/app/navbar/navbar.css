@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #d10606;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar-brand:hover {
+  color: #b87333;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #b87333 !important;
+  text-decoration: underline;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
